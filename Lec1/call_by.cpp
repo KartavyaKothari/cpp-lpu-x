@@ -20,12 +20,12 @@ void swap_a(int &a, int &b){
 }
 
 int main(){
-    // int a = 10;
+    int a = 10;
     // incre_by_value(a);
     // cout<<a<<endl;
 
-    // // incre_by_add(&a);
-    // // cout<<a<<endl;
+    incre_by_add(&a);
+    cout<<a<<endl;
 
     // incre_by_ref(a);
     // cout<<a<<endl;
